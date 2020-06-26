@@ -1,30 +1,37 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "imagebaseurl":"https://github.com/TobiKick",
+    "name": "Tobias Kick",
+    "role": "Data Scientist, Freelancer and Entrepreneur",
+    "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
+    "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
+    "githubId": "https://github.com/TobiKick",
+    "roleDescription": "I like to create value-adding solutions, learn about new technologies or to simply enjoy my free time with fun outdoor activities.",
     "socialLinks":[
         {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "name":"LinkedIn",
+          "id": "tobias-kick",
+          "url":"https://www.linkedin.com/in/tobias-kick/",
           "className":"fa fa-linkedin"
         },
         {
-          "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "name":"GitHub",
+          "id":"TobiKick",
+          "url":"https://github.com/TobiKick",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"Skype",
+          "id": "kicktobi",
+          "url":"https://join.skype.com/invite/oVehSsSyNbib",
+          "className":"fa fa-skype"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme_1":"I am currently a final year student at the University of Hamburg (Germany) and am pursuing my Master of Science in IT-Management and -Consulting from here.",
+    "aboutme_2":"I already hold a B. Sc. degree in Computer Systems from the Eastern Institute of Technical (New Zealand), as well as B. Sc. degree in Business Informatics from the Technical University of Regensburg (Germany).",
+    "aboutme_3":"I like to work as an entrepreneur, creating new technical business solutions, or work as a freelancer, assisting you as a independent and self-responsible partner in your quest.",
+    "address":"Germany",
+    "website":"",
+    "email":"tkick93@gmail.com",
     "education":[
       {
         "UniversityName":"The LNM Insitute of Information Technology",
