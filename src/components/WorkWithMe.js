@@ -32,14 +32,14 @@ export default class ContactUs extends Component {
                      {
                        resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
                          return(
-                           <li> {item.name}: <a href={item.url}>
+                           <li key={item.name}> {item.name}: <a href={item.url}>
                              <i className={item.className} />
                              </a> {item.id}
                            </li>
                          )
                        })
                      }
-                   </ul>
+                </ul>
             </div>
          </div>
 

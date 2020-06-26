@@ -32,6 +32,65 @@ let resumeData = {
     "address":"Germany",
     "website":"",
     "email":"tkick93@gmail.com",
+    "portfolio":[
+      {
+        "name":"Technical Prototyping",
+        "description":"Bringing an idea to life",
+        "imgurl":"images/portfolio/coffee.jpg"
+      },
+      {
+        "name":"Machine Learning",
+        "description":"Emotion Recognition + Insurance damage amount prediction",
+        "imgurl":"images/portfolio/console.jpg"
+      },
+      {
+        "name":"Web Development",
+        "description":"Customer Portal + Web calculator",
+        "imgurl":"images/portfolio/farmerboy.jpg"
+      },
+      {
+        "name":"Translation",
+        "description":"Translation for English, German and Spanish",
+        "imgurl":"images/portfolio/girl.jpg"
+      }
+    ],
+    "work":[
+      {
+        "CompanyName":"PPI AG (Hamburg, Germany)",
+        "specialization":"Student - Machine Learning",
+        "MonthOfLeaving":"Oct",
+        "YearOfLeaving":"2020",
+        "Achievements":"Identification of human intentions in real time video consultations through Emotion Recognition"
+      },
+      {
+        "CompanyName":"PPI AG (Hamburg, Germany)",
+        "specialization":"Intern - Machine Learning",
+        "MonthOfLeaving":"Jul",
+        "YearOfLeaving":"2019",
+        "Achievements":"Elaboration of a data center concept for the validation of Artificial Intelligence use cases"
+      },
+      {
+       "CompanyName":"Deloitte (Hamburg, Germany)",
+       "specialization":"Working Student - Cyber Risk",
+       "MonthOfLeaving":"Jul",
+       "YearOfLeaving":"2019",
+       "Achievements":"Assessment of cyber risks in customers cloud projects"
+      },
+      {
+        "CompanyName":"Henrichsen AG (Straubing, Germany)",
+        "specialization":"Dual Studies Program",
+        "MonthOfLeaving":"Apr",
+        "YearOfLeaving":"2018",
+        "Achievements":"BigData Analytics, Project Management, WebDevelopment and Customer Consultations"
+      },
+      {
+        "CompanyName":"HERA (Auckland, New Zealand)",
+        "specialization":"Working Student - Cyber Risk",
+        "MonthOfLeaving":"Jun",
+        "YearOfLeaving":"2017",
+        "Achievements":"Task automation and customization of project management solution"
+      }
+    ],
     "education":[
       {
         "UniversityName":"The LNM Insitute of Information Technology",
@@ -48,22 +107,6 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "work":[
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
-    ],
     "skillsDescription":"Your skills here",
     "skills":[
       {
@@ -74,28 +117,6 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
-      }
-    ],
-    "portfolio":[
-      {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      },
-      {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
       }
     ],
     "testimonials":[
