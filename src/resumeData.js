@@ -93,21 +93,35 @@ let resumeData = {
     ],
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "UniversityName":"University of Hamburg (Germany)",
+        "specialization":"IT-Management and -Consulting",
+        "MonthOfPassing":"Exp. Dec",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
+        "UniversityName":"National Taipei University of Technology (Taiwan)",
+        "specialization":"Electronical Engineering and Computer Science",
         "MonthOfPassing":"Jan",
+        "YearOfPassing":"2020",
+        "Achievements":"DeepLearning and BigData courses + extracurricular course in Blockchain + Smart Contract programming"
+      },
+      {
+        "UniversityName":"Technical University Regensburg (Germany)",
+        "specialization":"B.Sc. Business Informatics",
+        "MonthOfPassing":"Mar",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Courses in distributed systems, business processes and StartUps"
+      },
+      {
+        "UniversityName":"Eastern Institute of Technology (New Zealand)",
+        "specialization":"B.Sc. Computing Systems",
+        "MonthOfPassing":"Jun",
+        "YearOfPassing":"2017",
+        "Achievements":"Courses in web development (customer portal) and IT strategy"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Web Development Skills",
     "skills":[
       {
         "skillname":"HTML5"
@@ -119,16 +133,6 @@ let resumeData = {
         "skillname":"Reactjs"
       }
     ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
   }
   
   export default resumeData
