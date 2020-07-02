@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
+
 export default class Porfolio extends Component {
+
+
+    handleItemClick(name, description, content) {
+        this.props.refresh(true, name, description, content);
+    }
+
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -13,7 +20,9 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item" key={item.name}>
                   <div className="item-wrap">
-                    <a href="#modal-01">
+
+                    <a onClick={() => this.handleItemClick(item.name, item.description, item.content)} href="#services" >
+
                       <img src={`${item.imgurl}`} alt="Portfolio component"className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -30,7 +39,9 @@ export default class Porfolio extends Component {
           </div>
         </div>
       </div>
+
   </section>
+
         );
   }
 }

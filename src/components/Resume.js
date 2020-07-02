@@ -14,7 +14,7 @@ export default  class Resume extends Component {
                {
                  resumeData.work && resumeData.work.map((item) => {
                    return(
-                     <div className="row item" key={item.CompanyName}>
+                     <div className="row item" key={item.id}>
                         <div className="twelve columns">
                            <h3>{item.CompanyName}</h3>
                            <p className="info">
@@ -81,7 +81,7 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li key={item.skillname}>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
+                      <span className={`bar-expand ${item.skillname.toLowerCase()}`} style={{paddingRight: item.skilllevel}}>
                       </span><em>{item.skillname}</em>
                       </li>
                     )

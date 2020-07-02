@@ -36,26 +36,67 @@ let resumeData = {
       {
         "name":"Technical Prototyping",
         "description":"Bringing an idea to life",
-        "imgurl":"images/portfolio/coffee.jpg"
+        "imgurl":"images/portfolio/coffee.jpg",
+        "content": [
+            {
+                "project":"Emotion Analytics in real time video calls",
+                "description":"test1"
+            },
+            {
+                "project":"MoveHamburg - Bikesharing",
+                "description":"test2"
+            }
+        ]
       },
       {
         "name":"Machine Learning",
         "description":"Emotion Recognition + Insurance damage amount prediction",
-        "imgurl":"images/portfolio/console.jpg"
+        "imgurl":"images/portfolio/console.jpg",
+        "content":[
+              {
+                  "project":"two",
+                  "description":"test3"
+              },
+              {
+                  "project":"MoveHamburg - Bikesharing",
+                  "description":"test4"
+              }
+          ]
       },
       {
         "name":"Web Development",
         "description":"Customer Portal + Web calculator",
-        "imgurl":"images/portfolio/farmerboy.jpg"
+        "imgurl":"images/portfolio/farmerboy.jpg",
+        "content":[
+              {
+                  "project":"three",
+                  "description":"test5"
+              },
+              {
+                  "project":"MoveHamburg - Bikesharing",
+                  "description":"test6"
+              }
+          ]
       },
       {
         "name":"Translation",
         "description":"Translation for English, German and Spanish",
-        "imgurl":"images/portfolio/girl.jpg"
+        "imgurl":"images/portfolio/girl.jpg",
+        "content":[
+              {
+                  "project":"four",
+                  "description":"test7"
+              },
+              {
+                  "project":"MoveHamburg - Bikesharing",
+                  "description":"test8"
+              }
+          ]
       }
     ],
     "work":[
       {
+        "id":"1",
         "CompanyName":"PPI AG (Hamburg, Germany)",
         "specialization":"Student - Machine Learning",
         "MonthOfLeaving":"Oct",
@@ -63,6 +104,7 @@ let resumeData = {
         "Achievements":"Identification of human intentions in real time video consultations through Emotion Recognition"
       },
       {
+        "id":"2",
         "CompanyName":"PPI AG (Hamburg, Germany)",
         "specialization":"Intern - Machine Learning",
         "MonthOfLeaving":"Jul",
@@ -70,6 +112,7 @@ let resumeData = {
         "Achievements":"Elaboration of a data center concept for the validation of Artificial Intelligence use cases"
       },
       {
+        "id":"3",
        "CompanyName":"Deloitte (Hamburg, Germany)",
        "specialization":"Working Student - Cyber Risk",
        "MonthOfLeaving":"Jul",
@@ -77,6 +120,7 @@ let resumeData = {
        "Achievements":"Assessment of cyber risks in customers cloud projects"
       },
       {
+        "id":"4",
         "CompanyName":"Henrichsen AG (Straubing, Germany)",
         "specialization":"Dual Studies Program",
         "MonthOfLeaving":"Apr",
@@ -84,6 +128,7 @@ let resumeData = {
         "Achievements":"BigData Analytics, Project Management, WebDevelopment and Customer Consultations"
       },
       {
+        "id":"5",
         "CompanyName":"HERA (Auckland, New Zealand)",
         "specialization":"Working Student - Cyber Risk",
         "MonthOfLeaving":"Jun",
@@ -121,16 +166,23 @@ let resumeData = {
         "Achievements":"Courses in web development (customer portal) and IT strategy"
       }
     ],
-    "skillsDescription":"Web Development Skills",
+    "skillsDescription":"Language Skills",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"German",
+        "skilllevel":"100%"
       },
       {
-        "skillname":"CSS"
+        "skillname":"English",
+        "skilllevel":"98%"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Spanish",
+        "skilllevel":"80%"
+      },
+      {
+        "skillname":"Italian",
+        "skilllevel":"40%"
       }
     ],
   }
