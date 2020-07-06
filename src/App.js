@@ -4,7 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-import Services from './components/Services';
+import Projects from './components/Projects';
 import WorkWithMe from './components/WorkWithMe';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
@@ -18,14 +18,14 @@ class App extends Component {
             activeSelection: null,
             name: null,
             description: null,
-            content: null
+            projects: null
         }
 
         this.updateSelection = this.updateSelection.bind(this);
     }
 
-    updateSelection(value, name, description, content){
-            this.setState({activeSelection: value, name: name, description: description, content: content});
+    updateSelection(value, name, description, projects){
+            this.setState({activeSelection: value, name: name, description: description, projects: projects});
     }
 
   render() {
@@ -36,8 +36,8 @@ class App extends Component {
         <Portfolio resumeData={resumeData} refresh={this.updateSelection}/>
         <div style={{opacity: 0}}>
             {this.state.activeSelection ?
-                <Services selection={this.state.name} description={this.state.description} content={this.state.content} resumeData={resumeData}></Services> :
-                <Services></Services>
+                <Projects selection={this.state.name} description={this.state.description} projects={this.state.projects} resumeData={resumeData}></Projects> :
+                <Projects></Projects>
             }
         </div>
         <Resume resumeData={resumeData}/>
