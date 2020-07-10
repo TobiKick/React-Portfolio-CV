@@ -5,7 +5,7 @@ let resumeData = {
     "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
     "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
     "githubId": "https://github.com/TobiKick",
-    "roleDescription": "I like to create value-adding solutions, learn about new technologies or to simply enjoy my free time with fun outdoor activities.",
+    "roleDescription": "I like to create innovative, value-adding solutions and learn about new technologies",
     "socialLinks":[
         {
           "name":"LinkedIn",

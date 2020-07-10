@@ -32,7 +32,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
         <Portfolio resumeData={resumeData} refresh={this.updateSelection}/>
         <div style={{opacity: 0}}>
             {this.state.activeSelection ?
@@ -41,6 +40,7 @@ class App extends Component {
             }
         </div>
         <Resume resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
         <WorkWithMe resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
