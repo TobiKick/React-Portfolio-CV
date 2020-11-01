@@ -1,11 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/TobiKick",
     "name": "Tobias Kick",
-    "role": "Data Scientist, Freelancer and Entrepreneur",
+    "role": "Data Scientist, Freelancer, and Entrepreneur",
     "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
     "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
     "githubId": "https://github.com/TobiKick",
-    "roleDescription": "I like to create innovative, value-adding solutions and learn about new technologies",
+    "roleDescription": "I like creating innovative, value-adding solutions and learning about new technologies",
     "socialLinks":[
         {
           "name":"LinkedIn",
@@ -26,7 +26,7 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme_1":"I am currently a final year student at the University of Hamburg (Germany) and am pursuing my Master of Science in IT-Management and -Consulting from here.",
+    "aboutme_1":"I am currently a final year student at the University of Hamburg, pursuing my Master of Science in IT-Management and -Consulting.",
     "aboutme_2":"I already hold a B. Sc. degree in Computer Systems from the Eastern Institute of Technical (New Zealand), as well as B. Sc. degree in Business Informatics from the Technical University of Regensburg (Germany).",
     "aboutme_3":"I like to work as an entrepreneur, creating new technical business solutions, or work as a freelancer, assisting you as a independent and self-responsible partner in your quest.",
     "address":"Germany",
