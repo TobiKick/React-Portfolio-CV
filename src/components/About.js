@@ -16,12 +16,13 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>
-                    {resumeData.aboutme_1}<br></br>
-                    {resumeData.aboutme_2}
+                    {resumeData.aboutme_1}
                </p>
-               <p>
-                    {resumeData.aboutme_3}
-               </p>
+                <p>
+                    I graduated with a: <br />
+                    <span>&bull;  </span>{resumeData.aboutme_2} <br />
+                    <span>&bull;   </span>{resumeData.aboutme_3}
+                </p>
             </div>
          </div>
       </section>
