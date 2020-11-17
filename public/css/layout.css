@@ -262,9 +262,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   margin-bottom: 30px;
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -409,6 +407,21 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
+
+#dimScreen {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.80);
+
+    z-index: 1;
+}
 
 #portfolio {
    background: #ebeeee;
@@ -781,6 +794,15 @@ call-to-action .button {
     background: #fff;
     background: rgba(255, 255, 255, .9);
     cursor: default;
+}
+
+.react-sanfona-item-title {
+  background-color: #ebeeee;
+  border-top: 1px solid #ccc;
+  color: #333;
+  padding: 20px;
+  text-transform: uppercase;
+  transition: background-color .3s;
 }
 
 /* ------------------------------------------------------------------ */

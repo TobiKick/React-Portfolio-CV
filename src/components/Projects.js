@@ -3,18 +3,20 @@ import React, { Component } from 'react';
 export default class Projects extends Component {
 
   render() {
-  let projects = this.props.projects;
+    let name = this.props.item.name;
+    let description = this.props.item.description;
+    let projects = this.props.item.projects;
 
     return (
-
-        <div id="projects" style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%'}}>
-            <img src={"images/plain-white-background.jpg"} alt="plain white background" style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', height: '100%', width: '100%', opacity: '90%'}}></img>
-            <div style={{cursor: 'auto', backgroundColor: 'transparent', padding: '15px'}}>
+        <div id="dimScreen" onClick={this.props.hideProject}>
+            <div id="projects" style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', zIndex: '2'}}>
+                <img src={"images/plain-white-background.jpg"} alt="plain white background" style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', height: '100%', width: '100%', opacity: '95%'}}></img>
+                <div style={{cursor: 'auto', backgroundColor: 'transparent', padding: '15px'}}>
                     <div className="row work" style={{paddingBottom: '0px', marginBottom: '0px', borderBottom: '0px'}}>
 
                         <div className="three columns header-col">
-                            <h1><span style={{fontSize: '30px'}}>{this.props.selection}</span></h1>
-                            <p>{this.props.description}</p>
+                            <h1><span style={{fontSize: '30px'}}>{name}</span></h1>
+                            <p>{description}</p>
                         </div>
 
                         <div className="nine columns main-col" >
@@ -34,7 +36,7 @@ export default class Projects extends Component {
                         </div>
                     </div>
                 </div>
-
+            </div>
         </div>
     );
   }
