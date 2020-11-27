@@ -122,6 +122,23 @@ let resumeData = {
           ]
       }
     ],
+    "awards":[
+          {
+            "name":"Hackathon Winner",
+            "description":"Winning team 'Move Hamburg' at the 'Mobility Hackathon' 2018 with a bike sharing concept for Hamburg and an implemented prototype application.",
+            "imgurl":"images/award.png",
+          },
+          {
+            "name":"5 Euro Business",
+            "description":"Creation of the StartUp 'Sportmapr' with only 5 Euro capital during the practice-oriented StartUp competition '5 Euro Business' for students.",
+            "imgurl":"images/award.png",
+          },
+          {
+          "name":"Intercultural Competence",
+          "description":"Intercultural Competence is an additional studies course next to my regular studies stretchin over one year at the University of Applied Sciences Regensburg and its certificate got rewarded to me upon successful completion.",
+          "imgurl":"images/award.png",
+          }
+     ],
     "work":[
       {
         "id":"1",

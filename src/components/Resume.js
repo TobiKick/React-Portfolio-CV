@@ -5,16 +5,13 @@ import { IconContext } from "react-icons";
 
 export default class Resume extends Component {
   render() {
-
-
-
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
          <IconContext.Provider value={{ color: "#333333", size: "1.25em", style: { float: 'right'} }}>
          <Accordion className="react-sanfona">
 
-             <AccordionItem className="row work react-sanfona-item" title={<h3 id="react-sanfona-item-title" className="react-sanfona-item-title" style={{cursor: "pointer"}}>Work<IoIosArrowDropdownCircle /></h3>}>
+             <AccordionItem className="row work react-sanfona-item" title={<h3 id="react-sanfona-item-title" className="react-sanfona-item-title" style={{cursor: "pointer"}}>Professional Experience<IoIosArrowDropdownCircle /></h3>}>
                  <br /><div className="react-sanfona-item-body">
                     <div className="two columns header-col"></div>
                     <div className="ten columns main-col">
