@@ -1,11 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/TobiKick",
     "name": "Tobias Kick",
-    "role": "Data Scientist, Freelancer, and Entrepreneur",
+    "role": "Technical Solution Architect, IT Manager and Computer Scientist",
     "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
     "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
     "githubId": "https://github.com/TobiKick",
-    "roleDescription": "I enjoy creating innovative, value-adding solutions and learning about new technologies",
+    "roleDescription": "I am passionate about creating solutions, solving problems, and working with innovative technologies",
     "socialLinks":[
         {
           "name":"LinkedIn",
@@ -32,111 +32,129 @@ let resumeData = {
     "address":"Germany",
     "website":"",
     "email":"tkick93@gmail.com",
-    "portfolio":[
-      {
-        "name":"Machine Learning",
-        "description":"Predictions, Intelligent Agents and Emotion Recognition with Keras/Tensorflow",
-        "imgurl":"images/portfolio/machinelearning.jpg",
-        "projects":[
-              {
-                  "title":"Emotion Recognition in real time video calls",
-                  "subtitle":"Master Thesis",
-                  "year":"2020",
-                  "description":"."
-              },
-              {
-                  "title":"Deep Q Learning for a 2.5D game",
-                  "subtitle":"Course project for my studies in Taiwan",
-                  "year":"2019",
-                  "description":"."
-              },
-              {
-                  "title":"Damage prediciton in insurance claims",
-                  "subtitle":"Bachelor Thesis",
-                  "year":"2018",
-                  "description":"."
-            }
-          ]
-      },
-      {
-        "name":"Web Development",
-        "description":"Implementing client-side applications with JavaScript or PHP",
-        "imgurl":"images/portfolio/coding.jpg",
-        "projects":[
-              {
-                  "title":"CV + Portfolio",
-                  "subtitle":"with ReactJS, HTML and CSS",
-                  "year":"2020",
-                  "description":"Creating my own website for showcasing my portfolio, as well as CV."
-              },
-              {
-                  "title":"Customer portal",
-                  "subtitle":"with AngularJS, HTMl and CSS",
-                  "year":"2017",
-                  "description":"Customer portal for a New Zealand based telecommunication company."
-              },
-              {
-                  "title":"Engineering calculators",
-                  "subtitle":"with PHP, HTML and CSS",
-                  "year":"2017",
-                  "description":"Web based engineering calculators for company internal use."
-              }
-          ]
-      },
-      {
-              "name":"Prototyping",
-              "description":"Implementing ideas into tangible forms from paper to digital and validating those ideas",
-              "imgurl":"images/portfolio/prototyping.jpg",
-              "projects": [
-                  {
-                      "title":"Identification of human intentions in real time video calls",
-                      "subtitle":"Master Thesis",
-                      "year":"2020",
-                      "description":"Elaboration of a concept to create business value out of the utilization of Emotion Recognition in Video Calls."
-                  },
-                  {
-                      "title":"Bikesharing Concept for Hamburg",
-                      "subtitle":"MoveHamburg Hackathon",
-                      "year":"2018",
-                      "description":"."
-                  }
-              ]
-       },
-      {
-        "name":"Translation",
-        "description":"Translation for German, English and Spanish",
-        "imgurl":"images/portfolio/translation.jpg",
-        "projects":[
-              {
-                  "title":"IT Security documents for a multinational firm",
-                  "subtitle":"English <-> German translation",
-                  "year":"2019",
-                  "description":"English German translation of IT Security documents for a multinational car manufacturer."
-              },
-              {
-                  "title":"English teaching experience",
-                  "subtitle":"in Colombia",
-                  "year":"2018",
-                  "description":"Volunteering as an English teacher in a Spanish speaking environment."
-            }
-          ]
-      }
+    "portfolio": [
+        {
+            "title":"Emotion Recognition",
+            "subtitle":"Master Thesis: Visual Emotion Recognition In-The-Wild",
+            "imgurl":"images/portfolio/machinelearning.jpg",
+            "year": "2020",
+            "technology": "Python, Keras and TensorFlow",
+            "goal": 'Assessing the viability of Emotion Recognition for business use-cases in-the-wild based on facial expressions.',
+            "tasks": [
+                {"name": "task1",
+                 "description": "Implementation of a state-of-the-art Deep Learning solution based on current literature"},
+                {"name": "task2",
+                "description": "Comparison of various Deep Learning methods through Ablation Study."},
+                {"name": "task3",
+                "description": "User experiment setup in order to verify the viability of Emotion Recognition to identify interest in a business context"},
+            ],
+            "outcome": 'In this master thesis I could prove that my solution was able to outperform some state-of-the-art papers. \n However, the experiment did not proof the existence of a significant correlation between recognized emotional valence and the indicated interest by test participants.',
+            "images": [
+                {
+                    "name": "Webcam",
+                    "url": "images/portfolio/webcam_foto.PNG"
+                }
+            ]
+        },
+        {
+            "title":"Reinforcement Learning",
+            "subtitle":"Comparison of the Reinforcement Learning strategies DQN and A2C",
+            "imgurl":"images/portfolio/artificial_intelligence.jpg",
+            "year": "2019",
+            "technology": "Python, Keras and TensorFlow",
+            "goal": 'Determine the best reinforcement learning approach for the Little Fighter 2 (LF2) game',
+            "tasks": [
+                {"name": "task1",
+                "description": "Implementation of an agent that interacts with an environment for the LF2 game"},
+                {"name": "task2",
+                "description": "Comparison of the strategies Deep-Q-Learning (DQN) and Advantage Actor Critic (A2C) under which the agent took his deicisions"},
+                {"name": "task3",
+                "description": "Analysis of results based on win/lost ratio of each agent-strategy against a bot"},
+            ],
+            "outcome": 'In this project I could demonstrate that the A2C approach clearly outperformed DQN in the LF2 game',
+            "images": [
+                {
+                    "name": "ReinforcementLearning",
+                    "url": "images/portfolio/reinforcement.PNG"
+                },
+                {
+                    "name": "DQNvsA2C",
+                    "url": "images/portfolio/reinforcement_2.PNG"
+                }
+            ]
+        },
+/*        {
+            "name":"Fraud Detection in BigData",
+            "description":"Real-time stream processing of bank transaction for fraud detection",
+            "imgurl":"images/portfolio/fraud_detection.jpg",
+            "project":[
+                      {
+                          "visual": "images/portfolio/fraud_detection.PNG",
+                          "title": "Fraud Detection in BigData",
+                          "subtitle": "Real-time stream processing of bank transaction for fraud detection",
+                          "year": "2019",
+                          "technology": "Python, Keras and Spark",
+                          "description": 'Hello; I am good \n Hope you too?'
+                      }
+            ]
+        }, */
+
+        {
+            "title":"Blockchain",
+            "subtitle":"Smart Contract programming in Solidity",
+            "imgurl":"images/portfolio/blockchain.jpg",
+            "year": "2020",
+            "technology": "Solidity",
+            "goal": 'To become familiar with Blockchain technology specifically with Ethereum smart contracts by implementation',
+            "tasks": [
+                {"name": "task1",
+                "description": "Creating my own smart contract on an Ethereum test network"},
+                {"name": "task2",
+                "description": "Creation of programs that interact with smart contracts by sending transactions"},
+            ],
+            "outcome": 'Through implementing smart contracts on a test network I could demonstrate my ability to quickly find myself comfortable working with new technology.',
+            "images": [
+            ]
+        },
+        {
+            "title":"Web Development (Frontend)",
+            "subtitle":"Creation of a website for automatic user experiments",
+            "imgurl":"images/portfolio/web_dev.jpg",
+            "year": "2020",
+            "technology": "ReactJS, HTML and CSS",
+            "goal": 'Creation of a frontend web application that shows users different ads and records their webcam stream only when the video is playing.',
+            "tasks": [
+                {"name": "task1",
+                "description": "Implementation of a web-application with all its elements, like the header and video."},
+                {"name": "task2",
+                "description": "Writing functionality that handles the user input, as well as the slider and buttons"},
+                {"name": "task3",
+                "description": "Hosting of the web application on experiment.tobiaskick.com"},
+            ],
+            "outcome": "Setting up this web application allowed my to capture a user's emotion in real-time when watchin a video clip. Therefore, I could demonstrate my ability to quickly create (front-end) web applications." ,
+            "images": [
+                {
+                    "name": "UserExperiment",
+                    "url": "images/portfolio/user_experiment.PNG"
+                }
+            ]
+        },
     ],
     "awards":[
           {
             "name":"Hackathon Winner",
             "description":"Winning team 'Move Hamburg' at the 'Mobility Hackathon' 2018 with a bike sharing concept for Hamburg and an implemented prototype application.",
-            "imgurl":"images/award.png",
+            "imgurl":"images/badge.png",
           },
           {
             "name":"5 Euro Business",
             "description":"Creation of the StartUp 'Sportmapr' with only 5 Euro capital during the practice-oriented StartUp competition '5 Euro Business' for students.",
-            "imgurl":"images/award.png",
+            "imgurl":"images/badge.png",
           },
           {
           "name":"Intercultural Competence",
           "description":"Intercultural Competence is an additional studies course next to my regular studies stretchin over one year at the University of Applied Sciences Regensburg and its certificate got rewarded to me upon successful completion.",
-          "imgurl":"images/award.png",
+          "imgurl":"images/badge.png",
           }
      ],
     "work":[

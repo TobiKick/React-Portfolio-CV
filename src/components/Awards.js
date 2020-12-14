@@ -14,18 +14,16 @@ export default class Awards extends Component {
           {
             resumeData.awards && resumeData.awards.map((item)=>{
               return(
-                <div className="columns awards-item" key={item.name}>
-                  <div className="item-wrap" style={{'backgroundColor': 'transparent', 'width': '80%'}}>
+                <div className="columns awards-item" key={item.name}  >
+                  <div className="item-wrap" style={{'backgroundColor': 'transparent', 'textAlign': 'center'}}>
                       <img className="item-img" src={`${item.imgurl}`} alt="Awards component"/>
-                          <div className="overlay">
+                          <div className="overlay" >
                             <div className="awards-item-meta">
-                              <h5>{item.name}</h5>
+                              <h5>{item.name}</h5><br />
                               <p>{item.description}</p>
                             </div>
                           </div>
-                          <div style={{'textAlign': 'center'}}>
-                              <h5>{item.name}</h5>
-                          </div>
+                          <h5>{item.name}</h5>
                   </div>
                 </div>
               )

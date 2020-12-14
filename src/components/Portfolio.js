@@ -34,15 +34,14 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item" key={item.name}>
-                  <div className="item-wrap" style={{'width': '100%'}}>
-
+                <div className="columns portfolio-item" key={item.title}>
+                  <div className="item-wrap">
                     <div style={{cursor: 'pointer'}} onClick={() => this.showProject(item)}>
                       <img className="item-img" src={`${item.imgurl}`} alt="Portfolio component"/>
                           <div className="overlay">
                             <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
+                              <h5>{item.title}</h5>
+                              <p>{item.subtitle}</p>
                             </div>
                           </div>
                     </div>
