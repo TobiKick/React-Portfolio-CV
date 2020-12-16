@@ -53,8 +53,8 @@ export default class Resume extends Component {
                                   <p className="info">
                                   {item.specialization}
                                   <span>&bull;</span> <em className="date">{item.MonthStart} {item.YearStart} - {item.MonthEnd} {item.YearEnd}</em></p>
-                                  <p>
-                                  {item.Achievements}
+                                  <p style={{marginLeft: '30px'}}>
+                                        {nl2br(item.Achievements)}
                                   </p>
                                </div>
                             </div>

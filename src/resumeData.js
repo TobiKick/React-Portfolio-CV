@@ -208,7 +208,7 @@ let resumeData = {
         "YearStart":"2018",
         "MonthEnd":"Exp. Dec",
         "YearEnd":"2020",
-        "Achievements":""
+        "Achievements":"\u2B24 Focus on the generation and management of IT innovations in corporations \n \u2B24 Specialization on IT-Security in my electives with the courses Privacy by Design and Resilient Networks \n \u2B24 Master thesis at the ’Computer Vision’ research group about ’Visual Emotion Recognition In-The-Wild’"
       },
       {
         "UniversityName":"National Taipei University of Technology (Taiwan)",
@@ -217,16 +217,16 @@ let resumeData = {
         "YearStart":"2019",
         "MonthEnd":"Jan",
         "YearEnd":"2020",
-        "Achievements":"DeepLearning and BigData courses + extracurricular course in Blockchain + Smart Contract programming"
+        "Achievements":"\u2B24 Comparison of different reinforcement learning approaches in DeepLearning \n \u2B24 Real-time fraud detection system at scale (BigData) with Spark and Kafka \n \u2B24 Extracurricular course in Blockchain programming using Solidty (Ethereum) for creating smart contracts"
       },
       {
-        "UniversityName":"Technical University Regensburg (Germany)",
+        "UniversityName":"University of Applied Sciences Regensburg (Germany)",
         "specialization":"B.Sc. Business Informatics",
         "MonthStart":"Oct",
         "YearStart":"2014",
         "MonthEnd":"Mar",
         "YearEnd":"2018",
-        "Achievements":"Courses in distributed systems, business processes and StartUps"
+        "Achievements":"\u2B24 Gain of knowledge in a business IT related area, ranging from the analysis of business processes, over algorithms to distributed systems \n \u2B24 Completion of additional sideline courses, like Leadership, Risk management or Spanish"
       },
       {
         "UniversityName":"Eastern Institute of Technology (New Zealand)",
@@ -235,7 +235,7 @@ let resumeData = {
         "YearStart":"2016",
         "MonthEnd":"Jun",
         "YearEnd":"2017",
-        "Achievements":"Courses in web development (customer portal) and IT strategy"
+        "Achievements":"\u2B24 Elaboration of a new IT strategy for the company HERA \n \u2B24 Design and implementation of a customer service portal for a telecommunication company with AngularJS, NodeJS and MongoDB"
       }
     ],
     "skillsDescription":"Language Skills",
