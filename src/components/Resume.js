@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Accordion, AccordionItem } from 'react-sanfona';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { IconContext } from "react-icons";
+import nl2br from 'react-newline-to-break';
+
 
 export default class Resume extends Component {
   render() {
@@ -24,8 +26,8 @@ export default class Resume extends Component {
                                    <p className="info">
                                    {item.specialization}
                                    <span>&bull;</span> <em className="date">{item.MonthStart} {item.YearStart} - {item.MonthEnd} {item.YearEnd}</em></p>
-                                   <p>
-                                   {item.Achievements}
+                                   <p style={{marginLeft: '30px'}}>
+                                        {nl2br(item.Achievements)}
                                    </p>
                                 </div>
 

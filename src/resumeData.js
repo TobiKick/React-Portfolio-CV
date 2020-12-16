@@ -161,22 +161,12 @@ let resumeData = {
       {
         "id":"1",
         "CompanyName":"PPI AG (Hamburg, Germany)",
-        "specialization":"Student - Machine Learning",
-        "MonthStart":"Mar",
-        "YearStart":"2020",
-        "MonthEnd":"today",
-        "YearEnd":"",
-        "Achievements":"Identification of human intentions in real time video consultations through Emotion Recognition"
-      },
-      {
-        "id":"2",
-        "CompanyName":"PPI AG (Hamburg, Germany)",
-        "specialization":"Intern - Machine Learning",
+        "specialization":"Master Student - Machine Learning",
         "MonthStart":"Apr",
-        "YearStart":"",
-        "MonthEnd":"Jul",
-        "YearEnd":"2019",
-        "Achievements":"Elaboration of a data center concept for the validation of Artificial Intelligence use cases"
+        "YearStart":"2019",
+        "MonthEnd":"Jan",
+        "YearEnd":"2021",
+        "Achievements":"\u2B24 Mar 20 - Jan 21: Master's thesis: Visual Emotion Recognition In-The-Wild \n \u2B24 Apr 19 - Jul 19:  Analysis and elaboration of a data center concept for the validation of Artifical Intelligence use cases"
       },
       {
         "id":"3",
@@ -186,7 +176,7 @@ let resumeData = {
        "YearStart":"2018",
        "MonthEnd":"Jul",
        "YearEnd":"2019",
-       "Achievements":"Assessment of cyber risks in customers cloud projects"
+       "Achievements":"\u2B24 Assessment of customer projects in regard to cloud risks \n \u2B24 Creation of management reports and presentations, as well as conducting client consultations"
       },
       {
         "id":"4",
@@ -196,17 +186,17 @@ let resumeData = {
         "YearStart":"2014",
         "MonthEnd":"Apr",
         "YearEnd":"2018",
-        "Achievements":"BigData Analytics, Project Management, WebDevelopment and Customer Consultations"
+        "Achievements":"\u2B24 Artificial Intelligence: Implementation of a neural network for the intelligent prediction of the loss amount for insurance claims \n \u2B24 Consulting: Supported consultants with on-site customer appointments and customizations \n \u2B24 BigData Analytics: Creation of decision bases for executives based on BigData processed with Microsoft's PowerPivot and PowerView \n \u2B24 Project Management: Organization, coordination and monitoring of external IT projects"
       },
       {
         "id":"5",
         "CompanyName":"HERA (Auckland, New Zealand)",
-        "specialization":"Working Student - Cyber Risk",
+        "specialization":"Internship",
         "MonthStart":"Feb",
         "YearStart":"2017",
         "MonthEnd":"Jun",
         "YearEnd":"2017",
-        "Achievements":"Task automation and customization of project management solution"
+        "Achievements":"\u2B24 Implementation and customization of a company-wide project management solution \n \u2B24  SetUp of a development server + Development of web-based software tools for interal use with JavaScript, PHP and MySQL \n \u2B24 Automation of a RaspberryPi for data measurement and remote transmission "
       }
     ],
     "education":[
