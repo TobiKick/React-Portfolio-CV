@@ -42,8 +42,8 @@ export default class Resume extends Component {
 
              <AccordionItem className="row education react-sanfona-item" title={<h3 id="react-sanfona-item-title" className="react-sanfona-item-title" style={{cursor: "pointer"}}>Education<IoIosArrowDropdownCircle /></h3>}>
                  <br /><div className="react-sanfona-item-body">
-                    <div className="three columns header-col"></div>
-                    <div className="nine columns main-col">
+                    <div className="two columns header-col"></div>
+                    <div className="ten columns main-col">
                       {
                         resumeData.education && resumeData.education.map((item)=>{
                           return(
@@ -67,8 +67,8 @@ export default class Resume extends Component {
 
              <AccordionItem className="row skill react-sanfona-item" title={<h3 id="react-sanfona-item-title" className="react-sanfona-item-title" style={{cursor: "pointer"}}>Skills<IoIosArrowDropdownCircle /></h3>}>
                  <br /><div className="react-sanfona-item-body">
-                    <div className="three columns header-col"></div>
-                    <div className="nine columns main-col">
+                    <div className="two columns header-col"></div>
+                    <div className="ten columns main-col">
                        <p>
                        {resumeData.skillsDescription}
                        </p>
