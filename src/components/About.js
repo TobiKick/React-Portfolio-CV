@@ -19,12 +19,12 @@ export default class About extends Component {
 
                 <h2>About Me</h2>
                 <p>{nl2br(resumeData.aboutme_1)}</p>
-                <p>
-                    My approach is straightforward: <br /><div style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_2)}</div>
-                </p>
-                <p>
-                    I graduated with a: <br /><div style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_3)}</div>
-                </p>
+
+                <div style={{color: 'white'}}>My approach is straightforward:</div>
+                <p style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_2)}</p>
+
+                <div style={{color: 'white'}}>I graduated with a:</div>
+                <p style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_3)}</p>
             </div>
          </div>
       </section>
