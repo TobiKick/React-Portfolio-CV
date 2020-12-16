@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import nl2br from 'react-newline-to-break';
+
+
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -14,14 +17,13 @@ export default class About extends Component {
 
             <div className="nine columns main-col">
 
-               <h2>About Me</h2>
-               <p>
-                    {resumeData.aboutme_1}
-               </p>
+                <h2>About Me</h2>
+                <p>{nl2br(resumeData.aboutme_1)}</p>
                 <p>
-                    I graduated with a: <br />
-                    <span>&bull;  </span>{resumeData.aboutme_2} <br />
-                    <span>&bull;   </span>{resumeData.aboutme_3}
+                    My approach is straightforward: <br /><div style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_2)}</div>
+                </p>
+                <p>
+                    I graduated with a: <br /><div style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_3)}</div>
                 </p>
             </div>
          </div>
