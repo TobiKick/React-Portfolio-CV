@@ -27,7 +27,7 @@ let resumeData = {
         }
       ],
 
-    "aboutme_1":"My name is Tobias and I'm driven by the desire to create simple, elegant solutions using innovative technology to tackle seemingly complex problems. There is one central idea behind every goal that I set for my clients: providing undeniable, tangible, business value.",
+    "aboutme_1":"My name is Tobias and I'm driven by the desire to create simple, elegant solutions using innovative technology to tackle seemingly complex problems. There is one central idea behind every project that I do for my clients: providing undeniable, tangible, business value.",
     "aboutme_2":"\u2022 First, I ensure that the client and I are on the same page regarding the goals and deliverables (through interviews, mockups, wireframes, etc.). \n \u2022 Then I create a Minimum Viable Product (MVP) (i.e. a first version of the product) that the client and I agree on, or that I use to adjust the set course. \n \u2022 I will then hone and sharpen the solution to cut to the core of the requirements, \n \u2022 while ensuring that the end user finds palpable, positive value out of the solution (through user interviews, surveys, questionnaires, etc.).",
     "aboutme_3":"\u2022 Bachelor of Science in Computing Systems from the Eastern Institute of Technology (New Zealand) \n \u2022 Bachelor of Science in Business Informatics from the Technical University of Regensburg (Germany).",
     "address":"Germany",
