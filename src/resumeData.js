@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/TobiKick",
     "name": "Tobias Kick",
-    "role": "Data Scientist | Web Developer | IT-Consultant",
+    "role": "Data Scientist | Solution Architect | Web Developer",
     "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
     "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
     "githubId": "https://github.com/TobiKick",
