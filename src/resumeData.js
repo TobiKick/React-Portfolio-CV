@@ -187,7 +187,7 @@ let resumeData = {
         "YearStart":"2014",
         "MonthEnd":"Apr",
         "YearEnd":"2018",
-        "Achievements":"\u2B24 Artificial Intelligence: Implementation of a neural network for the intelligent prediction of the loss amount for insurance claims \n \u2B24 Consulting: Supported consultants with on-site customer appointments and customizations \n \u2B24 BigData Analytics: Creation of decision bases for executives based on BigData processed with Microsoft's PowerPivot and PowerView \n \u2B24 Project Management: Organization, coordination and monitoring of external IT projects"
+        "Achievements":"\u2B24 Artificial Intelligence: Implementation of a neural network for the intelligent prediction of the loss amount for insurance claims \n \u2B24 Agile Software development: Implementation of client-specific software components with AngularJS utilizing the SCRUM framework \n \u2B24 Consulting: Supported consultants with on-site customer appointments and customization of the implemented solution \n \u2B24 BigData Analytics: Creation of decision bases for executives based on BigData processed with Microsoft's PowerPivot and PowerView \n \u2B24 Project Management: Organization, coordination and monitoring of external IT projects"
       },
       {
         "id":"5",
