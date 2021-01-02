@@ -238,8 +238,31 @@ let resumeData = {
         "Achievements":"\u2B24 Elaboration of a new IT strategy for the company HERA \n \u2B24 Design and implementation of a customer service portal for a telecommunication company with AngularJS, NodeJS and MongoDB"
       }
     ],
-    "skillsDescription":"Language Skills",
+    "skillsDescription":"Technical Skills",
     "skills":[
+      {
+        "skillname":"Machine Learning: Python, Keras, Scikit-learn, Numpy, Pandas, matplotlib, and CV2",
+        "skilllevel":"85%"
+      },
+      {
+        "skillname":"Web Development (Frontend): HTML, CSS, JavaScript, ReactJS, AngularJS, and MongoDB",
+        "skilllevel":"80%"
+      },
+      {
+        "skillname":"Programming: Java, C, Oracle, and MySQL",
+        "skilllevel":"70%"
+      },
+      {
+        "skillname":"Programming: NodeJS, PHP, and Apache Spark",
+        "skilllevel":"50%"
+      },
+      {
+       "skillname":"Developer Tools: Cloud Computing Platforms (AWS + MA), Git Version Control, and Docker",
+       "skilllevel":"60%"
+     }
+    ],
+    "languageSkillsDescription":"Language Skills",
+    "languageSkills":[
       {
         "skillname":"German",
         "skilllevel":"100%"
