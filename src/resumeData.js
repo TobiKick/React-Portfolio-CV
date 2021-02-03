@@ -49,7 +49,7 @@ let resumeData = {
                 {"name": "task3",
                 "description": "User experiment setup in order to verify the viability of Emotion Recognition to identify interest in a business context"},
             ],
-            "outcome": 'In this master thesis I could prove that my solution was able to outperform some state-of-the-art papers. \n However, the experiment did not proof the existence of a significant correlation between recognized emotional valence and the indicated interest by test participants.',
+            "outcome": 'In this master thesis I could prove that my solution was able to outperform some state-of-the-art papers. \n Moreover, the experiment disproved the existence of a significant correlation between recognized emotional valence and the indicated interest by test participants.',
             "images": [
                 {
                     "name": "Webcam",
