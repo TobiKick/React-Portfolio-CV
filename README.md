@@ -9,5 +9,5 @@ ReactJS, HTML, CSS
 
 
 
-#### Credits @Rahul Bhatia
+### Credits @Rahul Bhatia
 Portfolio template: https://github.com/rbhatia46/React-Portfolio
