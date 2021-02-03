@@ -4,17 +4,8 @@
 ![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
 
 ## Project overview
-Task:
-
-Goal:
-
-Mission:
-
-## Tools
-Python, Keras, Numpy, Matplotlib, cv2, MTCNN, etc.
-
-## Dataset
-AFEW-VA dataset https://ibug.doc.ic.ac.uk/resources/afew-va-database/
+### Goal: Creation of a webpage to showcase clients what I can achieve for them based on my experience
+### Tools: ReactJS, HTML, CSS
 
 ## How to use
 1. Clone/Download the repo.
