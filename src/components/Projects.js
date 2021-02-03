@@ -13,13 +13,13 @@ export default class Projects extends Component {
                     <br />
                     <div className="twelve columns" style={{padding: '0 5px'}}>
                         <div className="eight columns">
-                            <h3 style={{color: 'white'}}>{project.title}</h3>
-                            <h5 style={{color: 'white'}}>{project.subtitle} <span> &bull; </span><em className="date">{project.year}</em></h5>
+                            <h3 style={{color: '#4298f5'}}>{project.title}</h3>
+                            <h5 style={{color: '#4298f5'}}>{project.subtitle} <span> &bull; </span><em className="date">{project.year}</em></h5>
                             <p className="info" style={{margin: '0px 0px 9px', fontStyle: 'italic', fontSize: '90%'}}>with {project.technology}</p>
 
-                            <div className="twelve columns" style={{margin: '0px 0px 9px'}}><b style={{color: 'white'}}>Goal: </b>{nl2br(project.goal)}</div>
+                            <div className="twelve columns" style={{margin: '0px 0px 9px'}}><b style={{color: '#4298f5'}}>Goal: </b>{nl2br(project.goal)}</div>
                             <div className="twelve columns">
-                                <div className="one column" style={{padding: '0px', margin: '0px 0px 9px'}}><b style={{color: 'white'}}>Tasks: </b></div>
+                                <div className="one column" style={{padding: '0px', margin: '0px 0px 9px'}}><b style={{color: '#4298f5'}}>Tasks: </b></div>
                                 <div className="eleven columns" style={{padding: '0px'}}>
                                     <ul>
                                         {project.tasks && project.tasks.map((task)=>{
@@ -32,7 +32,7 @@ export default class Projects extends Component {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="twelve columns" style={{margin: '0px 0px 0px'}}><b style={{color: 'white'}}>Outcome: </b>{nl2br(project.outcome)}</div>
+                            <div className="twelve columns" style={{margin: '0px 0px 0px'}}><b style={{color: '#4298f5'}}>Outcome: </b>{nl2br(project.outcome)}</div>
                         </div>
                         <div className="four columns">
 
