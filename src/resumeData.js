@@ -43,7 +43,7 @@ let resumeData = {
             "goal": 'Assessing the viability of Emotion Recognition for business use-cases in-the-wild based on facial expressions.',
             "tasks": [
                 {"name": "task1",
-                 "description": "Implementation of a state-of-the-art Deep Learning solution based on current literature"},
+                 "description": "Prototype implementation of a state-of-the-art Deep Learning solution based on current literature"},
                 {"name": "task2",
                 "description": "Comparison of various Deep Learning methods through Ablation Study."},
                 {"name": "task3",
@@ -132,7 +132,7 @@ let resumeData = {
                 {"name": "task3",
                 "description": "Hosting of the web application on experiment.tobiaskick.com"},
             ],
-            "outcome": "Setting up this web application allowed my to capture a user's emotion in real-time when watchin a video clip. Therefore, I could demonstrate my ability to quickly create (front-end) web applications." ,
+            "outcome": "By capturing a user's emotion in real-time on the developed website, I could identify subjective interest with emotion recognition based interest." ,
             "images": [
                 {
                     "name": "UserExperiment",
