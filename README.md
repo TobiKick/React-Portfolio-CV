@@ -1,5 +1,6 @@
 # React-Portfolio-CV
-A Protfolio/CV for developer/designers built with React
+Personal homepage presenting my CV and portfolio. The project was created using ReactJS.
+
 
 ## Preview
 ![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
