@@ -1,8 +1,20 @@
 # React-Portfolio-CV
 [Web Development] Personal homepage to showcase my portfolio and CV. Created with ReactJS.
 
-## Preview
 ![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
+
+## Project overview
+Task:
+
+Goal:
+
+Mission:
+
+## Tools
+Python, Keras, Numpy, Matplotlib, cv2, MTCNN, etc.
+
+## Dataset
+AFEW-VA dataset https://ibug.doc.ic.ac.uk/resources/afew-va-database/
 
 ## How to use
 1. Clone/Download the repo.
