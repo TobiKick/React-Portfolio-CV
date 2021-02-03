@@ -2,7 +2,7 @@
 A Protfolio/CV for developer/designers built with React
 
 ## Preview
-![Preview](https://ibb.co/k9Bf6V5)
+![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
 
 ## How to use
 1. Clone/Download the repo.
