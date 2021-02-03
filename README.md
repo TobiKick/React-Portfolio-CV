@@ -1,6 +1,5 @@
 # React-Portfolio-CV
-Personal homepage presenting my CV and portfolio. The project was created using ReactJS.
-
+[Web Development] Personal homepage to showcase my portfolio and CV. Created with ReactJS.
 
 ## Preview
 ![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
