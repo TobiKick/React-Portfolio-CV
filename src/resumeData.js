@@ -106,12 +106,12 @@ let resumeData = {
             "imgurl":"images/portfolio/blockchain.jpg",
             "year": "2020",
             "technology": "Solidity",
-            "goal": 'To become familiar with Blockchain technology specifically with Ethereum smart contracts by implementation',
+            "goal": 'Implementation of and interaction with smart contracts in order to become familiar with blockchain technology',
             "tasks": [
                 {"name": "task1",
                 "description": "Creating my own smart contract on an Ethereum test network"},
                 {"name": "task2",
-                "description": "Creation of programs that interact with smart contracts by sending transactions"},
+                "description": "Creation of programs that interact with smart contracts by sending out and receiving transactions"},
             ],
             "outcome": 'Through implementing smart contracts on a test network I could demonstrate my ability to quickly find myself comfortable working with new technology.',
             "images": [
