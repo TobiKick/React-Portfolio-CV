@@ -1,16 +1,13 @@
 # React-Portfolio-CV
-A Protfolio/CV for developer/designers built with React
+[Web Development] Personal homepage to showcase my portfolio and CV. Created with ReactJS.
 
-## Preview
-![Preview](https://i.ibb.co/18qT0WT/Tobias-Kick-Portfolio.png)
-
-## How to use
-1. Clone/Download the repo.
-2. Run  ``` npm install ```.
-3. Change the values in ```src/resumeData.js``` to suit your use-case.
-4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-5. Make required changes in ```src/resumeData.js``` to suit your needs.
+![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
+### Goal: 
+Creation of a webpage to showcase clients what I can achieve for them based on my experience
+### Tools: 
+ReactJS, HTML, CSS
 
 
-## Credits @Rahul Bhatia
+
+### Credits @Rahul Bhatia
 Portfolio template: https://github.com/rbhatia46/React-Portfolio
