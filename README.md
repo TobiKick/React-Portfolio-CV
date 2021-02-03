@@ -4,8 +4,10 @@
 ![Preview](https://i.ibb.co/P9jnzsF/portfolio.png)
 
 ## Project overview
-### Goal: Creation of a webpage to showcase clients what I can achieve for them based on my experience
-### Tools: ReactJS, HTML, CSS
+#### Goal: 
+Creation of a webpage to showcase clients what I can achieve for them based on my experience
+#### Tools: 
+ReactJS, HTML, CSS
 
 ## How to use
 1. Clone/Download the repo.
