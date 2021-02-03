@@ -2,7 +2,7 @@
 A Protfolio/CV for developer/designers built with React
 
 ## Preview
-![Preview](https://i.ibb.co/18qT0WT/Tobias-Kick-Portfolio.png)
+![Preview](https://ibb.co/k9Bf6V5)
 
 ## How to use
 1. Clone/Download the repo.
