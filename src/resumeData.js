@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/TobiKick",
     "name": "Tobias Kick",
-    "role": "Data Scientist | Solution Architect | Web Developer",
+    "role": "Freelancer | Data Scientist | Web Developer",
     "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
     "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
     "githubId": "https://github.com/TobiKick",
@@ -113,7 +113,7 @@ let resumeData = {
                 {"name": "task2",
                 "description": "Creation of programs that interact with smart contracts by sending out and receiving transactions"},
             ],
-            "outcome": 'Through implementing smart contracts on a test network I could demonstrate my ability to quickly find myself comfortable working with new technology.',
+            "outcome": 'Interaction with smart contracts on the Ropsten Etherum test network',
             "images": [
             ]
         },
@@ -206,8 +206,8 @@ let resumeData = {
         "specialization":"IT-Management and -Consulting",
         "MonthStart":"Oct",
         "YearStart":"2018",
-        "MonthEnd":"Exp. Dec",
-        "YearEnd":"2020",
+        "MonthEnd":"May",
+        "YearEnd":"2021",
         "Achievements":"\u2B24 Focus on the generation and management of IT innovations in corporations \n \u2B24 Specialization on IT-Security in my electives with the courses Privacy by Design and Resilient Networks \n \u2B24 Master thesis at the ’Computer Vision’ research group about ’Visual Emotion Recognition In-The-Wild’"
       },
       {
