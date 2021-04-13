@@ -9,7 +9,7 @@ export default class Awards extends Component {
       <section id="awards">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Awards and certifications:</h1>
+          <h2>Awards and certifications:</h2>
           <div id="awards-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
           {
             resumeData.awards && resumeData.awards.map((item)=>{

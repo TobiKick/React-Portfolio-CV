@@ -8,24 +8,17 @@ export default class About extends Component {
     return (
       <section id="about">
          <div className="row">
+            <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+         </div>
+         <div className="row">
+            <h2>About Me</h2>
+            <p>{nl2br(resumeData.aboutme_1)}</p>
 
-            <div className="three columns">
+            <h3>My approach is straightforward:</h3>
+            <p>{nl2br(resumeData.aboutme_2)}</p>
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-            </div>
-
-            <div className="nine columns main-col">
-
-                <h2>About Me</h2>
-                <p>{nl2br(resumeData.aboutme_1)}</p>
-
-                <div style={{color: 'white'}}>My approach is straightforward:</div>
-                <p style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_2)}</p>
-
-                <div style={{color: 'white'}}>I graduated with a:</div>
-                <p style={{marginLeft: '20px'}}>{nl2br(resumeData.aboutme_3)}</p>
-            </div>
+            <h3>I graduated with a:</h3>
+            <p>{nl2br(resumeData.aboutme_3)}</p>
          </div>
       </section>
     );
