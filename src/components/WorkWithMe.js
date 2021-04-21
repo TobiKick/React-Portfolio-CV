@@ -5,15 +5,15 @@ const ContactUs = (props) => {
 
     return (
       <section id="contact">
+        <h2>Work With Me</h2>
         <div className="row">
             <p className="lead">
-                  Feel free to contact me for any work or suggestions:
+                  Feel free to contact me for any work or suggestions below
             </p>
         </div>
 
         <div className="row">
-            <p className="address"><a href="mailto:tkick93@gmail.com?subject = Inquiry freelancer"><span id="mailIcon"></span></a>{resumeData.email}</p>
-
+            <p className="address"><a href="mailto:tkick93@gmail.com"><span id="mailIcon"></span></a>{resumeData.email}</p>
         </div>
 
         <div className="row">

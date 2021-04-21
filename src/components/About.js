@@ -8,10 +8,10 @@ export default class About extends Component {
     return (
       <section id="about">
          <div className="row">
+            <h2>About Me</h2>
             <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
          </div>
          <div className="row">
-            <h2>About Me</h2>
             <p>{nl2br(resumeData.aboutme_1)}</p>
 
             <h3>My approach is straightforward:</h3>

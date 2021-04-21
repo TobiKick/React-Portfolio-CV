@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
 import Project from './Project';
+import nl2br from 'react-newline-to-break';
 
 const useStyles = makeStyles((theme) => ({
   typography: {
@@ -36,7 +37,7 @@ function Portfolio(props) {
           <div className="row">
             <div className="twelve columns collapsed">
               <h2>Have a look at some of my projects:</h2>
-              <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               {
                 resumeData.portfolio && resumeData.portfolio.map((item)=>{
                   return(
@@ -47,8 +48,9 @@ function Portfolio(props) {
                             <img className="item-img" src={`${item.imgurl}`} alt="Portfolio component"/>
                                 <div className="overlay">
                                   <div className="portfolio-item-meta">
-                                    <h5>{item.title}</h5>
-                                    <p>{item.subtitle}</p>
+                                    <h5>{nl2br(item.title)}</h5>
+                                    <br />
+                                    <p>{nl2br(item.subtitle)}</p>
                                   </div>
                                 </div>
                           </div>
@@ -57,7 +59,7 @@ function Portfolio(props) {
                             open={open}
                             onClose={handleClose}
                             PaperProps={{
-                              style: {marginTop: '5%', width: '60%', height: '75%'},
+                              style: {marginTop: '5%', height: '90%'},
                             }}
                           >
                             <Typography className={classes.typography}>

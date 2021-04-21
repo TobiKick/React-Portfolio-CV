@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/background.png) no-repeat top center;
+   background: #161415 url(../images/background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -188,8 +188,7 @@ ul#nav li.current a { color: #4298f5; }
 
 #about {
    background: #FFFFFF;  /* #2B2B2B; */
-   padding-top: 110px;
-   padding-bottom: 66px;
+   padding-top: 150px;
    overflow: hidden;
    text-align: center;
 }
@@ -222,10 +221,9 @@ ul#nav li.current a { color: #4298f5; }
 }
 #about .profile-pic {
    position: relative;
-   width: 150px;
-   height: 150px;
+   width: 180px;
+   height: 180px;
    border-radius: 100%;
-   margin-bottom: 30px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -253,8 +251,7 @@ ul#nav li.current a { color: #4298f5; }
 
 #resume {
    background: #fff;
-   padding-top: 120px;
-   padding-bottom: 72px;
+   padding-top: 30px;
    overflow: hidden;
 }
 
@@ -444,8 +441,8 @@ ul#nav li.current a { color: #4298f5; }
 
 #portfolio {
    background: #fff;
-   padding-top: 90px;
-   padding-bottom: 60px;
+   padding-top: 120px;
+   text-align: center;
 }
 #portfolio h2 {
    font: 24px/30px 'opensans-bold', sans-serif;
@@ -465,10 +462,10 @@ ul#nav li.current a { color: #4298f5; }
 /* Portfolio Content */
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
-
 }
 
 .portfolio-item .item-wrap {
+   margin: 10px;
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -491,7 +488,7 @@ ul#nav li.current a { color: #4298f5; }
    left: 0;
    top: 0;
    width: 100%;
-   height: 125px;
+   height: 160px;
 
 	opacity: 1;
 	-moz-opacity: 0;
@@ -531,15 +528,16 @@ ul#nav li.current a { color: #4298f5; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
+
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   color: #FFF;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
-   margin-bottom: 0;
+   font: 14px/20px 'opensans-light', sans-serif;
+   color: #FFF;  /* #c6c7c7; */
+   margin-bottom: 0px;
 }
 
 /* on hover */
@@ -563,10 +561,58 @@ ul#nav li.current a { color: #4298f5; }
     }
 }
 
+@media screen and (max-width: 800px) {
+    .MuiPaper-root {
+            width: 100%;
+        }
+}
+
 /* ------------------------------------------------------------------ */
-/* e. Project Card
+/* e. Project
 /* ------------------------------------------------------------------ */
 
+#project .subsection {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#project em.date {
+    font: 18px/24px 'opensans-light', sans-serif;
+}
+
+#project p.info {
+    font: 16px/22px 'opensans-light', sans-serif;
+    margin-bottom: 0px;
+}
+
+#project #header {
+    text-align: center;
+    background: #e6e8eb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#project h5 {
+    font: 20px 'opensans-bold', sans-serif;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+#project p.content {
+    font: 18px 'opensans-light', sans-serif;
+    line-height: 24px;
+}
+
+#project .outer-div{
+  display: flex;
+}
+#project .inner-div{
+  margin: auto;
+}
+
+#project .item-img.curved{
+    border-radius: 25px;
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Awards Section
@@ -589,7 +635,7 @@ ul#nav li.current a { color: #4298f5; }
 
 #awards {
    background: #FFFFFF;
-   padding-top: 60px;
+   padding-top: 150px;
 }
 #awards h2 {
    font: 24px/30px 'opensans-bold', sans-serif;
@@ -968,13 +1014,13 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* h. Contact Section
+/* h. Contact Section / Work With Me Section
 /* ------------------------------------------------------------------ */
 
 #contact {
    background: #FFFFFF; /* #191919; */
-   padding-top: 80px;   /* 96px; */
-   padding-bottom: 80px; /* 102px; */
+   padding-top: 240px;   /* 96px; */
+   padding-bottom: 240px; /* 102px; */
    color: #636363;
    text-align: center;
 }
@@ -991,11 +1037,11 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #4298f5; }  /* #fff */
 
 #contact h2 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 24px/30px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #313131; /* #EBEEEE; */
-   margin-bottom: 6px;
+   margin-bottom: 20px;
 }
 
 #contact h2 span { display: none; }
@@ -1004,7 +1050,7 @@ call-to-action .button {
    font-family: 'FontAwesome';
    content: "\f0e0";
    padding-right: 15px;
-   font-size: 40px;
+   font-size: 25px;
    vertical-align: middle;
 }
 
@@ -1014,8 +1060,13 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-light', sans-serif;
    color: #313131;
+   margin-bottom: 35px;
+}
+
+#contact p.address {
+   margin-bottom: 15px;
 }
 
 #contact .header-col { padding-top: 6px; }
@@ -1123,12 +1174,12 @@ call-to-action .button {
 
 footer {
    padding-top: 48px;
-   padding-bottom: 48px;
+   padding-bottom: 12px;
    color: #303030;
    font-size: 14px;
    text-align: center;
    position: relative;
-   background: #0f0f0f;
+   background: #161415; /* #0f0f0f; */
 }
 
 footer a, footer a:visited { color: #525252; }

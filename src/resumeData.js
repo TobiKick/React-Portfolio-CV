@@ -35,9 +35,9 @@ let resumeData = {
     "email":"tkick93@gmail.com",
     "portfolio": [
         {
-            "title":"Emotion Recognition",
-            "subtitle":"Master Thesis: Visual Emotion Recognition In-The-Wild",
-            "imgurl":"images/portfolio/machinelearning.jpg",
+            "title":"Emotion Recognition \n [Machine Learning]",
+            "subtitle":"Master's thesis: Visual Emotion Recognition in The Wild",
+            "imgurl":"images/portfolio/emotion_recognition.jpg",
             "year": "2020",
             "technology": "Python, Keras and TensorFlow",
             "goal": 'Assessing the viability of Emotion Recognition for business use-cases in-the-wild based on facial expressions.',
@@ -49,96 +49,195 @@ let resumeData = {
                 {"name": "task3",
                 "description": "User experiment setup in order to verify the viability of Emotion Recognition to identify interest in a business context"},
             ],
-            "outcome": 'In this master thesis I could prove that my solution was able to outperform some state-of-the-art papers. \n Moreover, the experiment disproved the existence of a significant correlation between recognized emotional valence and the indicated interest by test participants.',
-            "images": [
-                {
-                    "name": "Webcam",
-                    "url": "images/portfolio/webcam_foto.PNG"
+            "outcome": 'In this master thesis I could prove that my solution was able to outperform some state-of-the-art papers. \n Moreover, the experiment proved the existence of a statistically significant correlation between the subjectively indicated interest by test participants and identified interest based on emotion recognition.',
+            "images": {
+                    "img_1": {
+                        "name": "Emotion Recognition",
+                        "curved": true,
+                        "url": "images/portfolio/emotion_recognition.jpg",
+                    },
+                    "img_2": {
+                        "name": "Emotion Recognition Pipeline",
+                        "curved": false,
+                        "url": "images/portfolio/emotion_recognition_pipeline.jpg",
+                    },
+                    "img_3": {
+                        "name": "Webcam",
+                        "curved": false,
+                        "url": "images/portfolio/webcam_foto.PNG",
+                    }
                 }
-            ]
         },
         {
-            "title":"Reinforcement Learning",
+            "title":"Damage prediction \n[Machine Learning]",
+            "subtitle":"Bachelor's thesis: Prediction of the damage amount in insurance claims",
+            "imgurl":"images/portfolio/machine_learning.jpg",
+            "year": "2018",
+            "technology": "Python and Keras",
+            "goal": "Predicting the damage amount of insurance claims given by customers.",
+            "tasks": [
+                  {"name": "task1",
+                  "description": "Cleaning and preprocessing of insurance claims related data collected by customer support during phone calls."},
+                  {"name": "task2",
+                  "description": "Processing natural language by tokenizing words and preparing data to be inputted into a ML model."},
+                  {"name": "task3",
+                  "description": "Training a machine learning model to use regression for the prediction of the damage amount."},
+            ],
+            "outcome": "By predicting on a test dataset, I could show that my approach reduced the average deviation of prediction to target by more than 67%. While the data's median has an average deviation of 80%, the predictions of my approach only deviate on average 26%.",
+            "images": {
+                "img_1": {
+                    "name": "Fraud detection",
+                    "curved": true,
+                    "url": "images/portfolio/machine_learning.jpg",
+                },
+                "img_2": {
+                    "name": "Machine Learning Steps",
+                    "curved": true,
+                    "url": "images/portfolio/ml_steps.jpg",
+                },
+                "img_3": {
+                    "name": "Machine Learning Code",
+                    "curved": false,
+                    "url": "images/portfolio/damage_prediction_code.png",
+                }
+            }
+        },
+
+        {
+            "title":"Reinforcement Learning \n [Machine Learning]",
             "subtitle":"Comparison of the Reinforcement Learning strategies DQN and A2C",
             "imgurl":"images/portfolio/artificial_intelligence.jpg",
             "year": "2019",
             "technology": "Python, Keras and TensorFlow",
-            "goal": 'Determine the best reinforcement learning approach for the Little Fighter 2 (LF2) game',
+            "goal": 'Determine the best reinforcement learning approach for the Little Fighter 2 (LF2) game.',
             "tasks": [
                 {"name": "task1",
-                "description": "Implementation of an agent that interacts with an environment for the LF2 game"},
+                "description": "Implementation of an agent that interacts with an environment for the LF2 game."},
                 {"name": "task2",
-                "description": "Comparison of the strategies Deep-Q-Learning (DQN) and Advantage Actor Critic (A2C) under which the agent took his deicisions"},
+                "description": "Comparison of the strategies Deep-Q-Learning (DQN) and Advantage Actor Critic (A2C) under which the agent took his deicisions."},
                 {"name": "task3",
-                "description": "Analysis of results based on win/lost ratio of each agent-strategy against a bot"},
+                "description": "Analysis of results based on win/lost ratio of each agent-strategy against a bot."},
             ],
-            "outcome": 'In this project I could demonstrate that the A2C approach clearly outperformed DQN in the LF2 game',
-            "images": [
-                {
-                    "name": "ReinforcementLearning",
-                    "url": "images/portfolio/reinforcement.PNG"
-                },
-                {
-                    "name": "DQNvsA2C",
-                    "url": "images/portfolio/reinforcement_2.PNG"
-                }
-            ]
-        },
-/*        {
-            "name":"Fraud Detection in BigData",
-            "description":"Real-time stream processing of bank transaction for fraud detection",
-            "imgurl":"images/portfolio/fraud_detection.jpg",
-            "project":[
-                      {
-                          "visual": "images/portfolio/fraud_detection.PNG",
-                          "title": "Fraud Detection in BigData",
-                          "subtitle": "Real-time stream processing of bank transaction for fraud detection",
-                          "year": "2019",
-                          "technology": "Python, Keras and Spark",
-                          "description": 'Hello; I am good \n Hope you too?'
-                      }
-            ]
-        }, */
+            "outcome": 'In this project I could demonstrate that the A2C approach clearly outperformed DQN in the LF2 game.',
+            "images": {
+                    "img_1": {
+                        "name": "Artifical Intelligence",
+                        "curved": true,
+                        "url": "images/portfolio/artificial_intelligence.jpg",
+                    },
+                    "img_2": {
+                        "name": "Webcam",
+                        "curved": false,
+                        "url": "images/portfolio/reinforcement_2.PNG",
+                    },
+                    "img_3": {
+                        "name": "DQNvsA2C",
+                        "curved": false,
+                        "url": "images/portfolio/reinforcement.PNG",
+                    },
 
+                }
+        },
         {
-            "title":"Blockchain",
-            "subtitle":"Smart Contract programming in Solidity",
+            "title":"Smart contracts \n [Ethereum Blockchain]",
+            "subtitle":"Smart Contract programming in Solidity at the National Taiwan University (NTU)",
             "imgurl":"images/portfolio/blockchain.jpg",
             "year": "2020",
             "technology": "Solidity",
-            "goal": 'Implementation of and interaction with smart contracts in order to become familiar with blockchain technology',
+            "goal": 'Familiarization with smart contracts and the Blockchain technology based on Ethereum.',
             "tasks": [
                 {"name": "task1",
-                "description": "Creating my own smart contract on an Ethereum test network"},
+                "description": "Creation of smart contracts based on Ethereum's ERC20 standard"},
                 {"name": "task2",
-                "description": "Creation of programs that interact with smart contracts by sending out and receiving transactions"},
+                "description": "Interaction with other smart contracts on the Ropsten Ethereum test network by sending and receiving transactions with Ethereum's JavaScript API web3.js."},
             ],
-            "outcome": 'Interaction with smart contracts on the Ropsten Etherum test network',
-            "images": [
-            ]
+            "outcome": 'Through these demanding exercises at one of Asia\'s top 10 universities, I could prove that I can quickly grasp new technical concepts in the realm of cryptocurrency and am able to implement smart contracts for cryptocurrencies based on the ERC20 standard.',
+            "images": {
+                "img_1": {
+                    "name": "Blockchain",
+                    "curved": true,
+                    "url": "images/portfolio/blockchain.jpg",
+                },
+                "img_2": {
+                    "name": "Smart Contract Web3",
+                    "curved": false,
+                    "url": "images/portfolio/smart_contract_web3.png",
+                },
+                "img_3": {
+                    "name": "Smart Contract Token",
+                    "curved": false,
+                    "url": "images/portfolio/smart_contract_token.png",
+                }
+            }
+        },
+         {
+            "title":"Fraud Detection in BigData \n[Machine Learning]",
+            "subtitle":"Real-time stream processing of bank transaction for fraud detection",
+            "imgurl":"images/portfolio/fraud_detection.jpg",
+            "year": "2019",
+            "technology": "Docker, Python, Keras and Apache Kafka",
+            "goal": "Implementation of a real-time stream processing system that is able to analyze transactions and indicates which are suspected to be a fraud.",
+            "tasks": [
+                 {"name": "task1",
+                 "description": "Environment setup with an easy deployment on a cluster of machines with Docker."},
+                 {"name": "task2",
+                 "description": "Training of a neural network for the task of fraud detection on the IEEE-CIS fraud detection dataset."},
+                 {"name": "task3",
+                 "description": "Set-up of a real-time stream processing pipeline with Apache Kafka according to the producer/consumer pattern, plus integration of the ML model for fraud detection."},
+            ],
+            "outcome" : "A real-time fraud detection system at scale: Transaction are published by producers, consumers of a cluster subscribe to these transactions and detect fraudulent transaction in near real-time.",
+            "images": {
+                    "img_1": {
+                        "name": "Fraud detection",
+                        "curved": true,
+                        "url": "images/portfolio/fraud_detection.jpg",
+                    },
+                    "img_2": {
+                        "name": "Kafka Cluster",
+                        "curved": false,
+                        "url": "images/portfolio/fraud_detection_kafka.png",
+                    },
+                    "img_3": {
+                        "name": "Confusion Matrix",
+                        "curved": false,
+                        "url": "images/portfolio/fraud_detection_confusion_matrix.png",
+                    },
+
+                }
         },
         {
-            "title":"Web Development (Frontend)",
-            "subtitle":"Creation of a website for automatic user experiments",
+            "title":"Video experiment software \n [Web Development]",
+            "subtitle":"Creation of a website that allows to conduct automatic user experiments",
             "imgurl":"images/portfolio/web_dev.jpg",
             "year": "2020",
             "technology": "ReactJS, HTML and CSS",
-            "goal": 'Creation of a frontend web application that shows users different ads and records their webcam stream only when the video is playing.',
+            "goal": 'Creation of a frontend web application for the puprose of conducting scientific experiments online and with a participant\'s video stream.',
             "tasks": [
                 {"name": "task1",
-                "description": "Implementation of a web-application with all its elements, like the header and video."},
+                "description": "Creation of a React-based web application, including buttons, a slider and a YouTube video."},
                 {"name": "task2",
-                "description": "Writing functionality that handles the user input, as well as the slider and buttons"},
+                "description": "Implementation of functionality specific to the scientific experiment, e.g. functions that ensure that the participant's webcam stream is only being recorded when the video/ad is actively playing."},
                 {"name": "task3",
                 "description": "Hosting of the web application on experiment.tobiaskick.com"},
             ],
-            "outcome": "By capturing a user's emotion in real-time on the developed website, I could identify subjective interest with emotion recognition based interest." ,
-            "images": [
-                {
+            "outcome": "By implementing my own website for this scientific experiment I could provide participants an intuitive and elegant user interface, while also meeting scientific and technical requirements. The webcam stream recorded during the experiment allowed me to capture a user's emotions in real-time and develop an approach to identify interest based on facial expressions. This resulted in the insight that there is indeed a significant stasticial correlation between subjectively stated interest and interest predicted based on emotion recognition." ,
+            "images": {
+                "img_1": {
+                    "name": "Web Development",
+                    "curved": true,
+                    "url": "images/portfolio/web_dev.jpg"
+                },
+                "img_2": {
                     "name": "UserExperiment",
+                    "curved": false,
+                    "url": "images/portfolio/react_js.jpg"
+                },
+                "img_3": {
+                    "name": "UserExperiment",
+                    "curved": false,
                     "url": "images/portfolio/user_experiment.PNG"
                 }
-            ]
+            }
         },
     ],
     "awards":[

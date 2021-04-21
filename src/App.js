@@ -16,8 +16,8 @@ function App(){
             <Header resumeData={resumeData}/>
             <Portfolio resumeData={resumeData}/>
             <Awards resumeData={resumeData}/>
-            <Resume resumeData={resumeData}/>
             <About resumeData={resumeData}/>
+            <Resume resumeData={resumeData}/>
             <WorkWithMe resumeData={resumeData}/>
             <Footer resumeData={resumeData}/>
         </div>
