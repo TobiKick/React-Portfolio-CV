@@ -74,7 +74,7 @@ let resumeData = {
             "imgurl":"images/portfolio/machine_learning.jpg",
             "year": "2018",
             "technology": "Python and Keras",
-            "goal": "Predicting the damage amount of insurance claims given by customers.",
+            "goal": "Predicting the damage amount of insurance claims given by customers with a higher accuracy and lower error than the median.",
             "tasks": [
                   {"name": "task1",
                   "description": "Cleaning and preprocessing of insurance claims related data collected by customer support during phone calls."},
@@ -83,7 +83,7 @@ let resumeData = {
                   {"name": "task3",
                   "description": "Training a machine learning model to use regression for the prediction of the damage amount."},
             ],
-            "outcome": "By predicting on a test dataset, I could show that my approach reduced the average deviation of prediction to target by more than 67%. While the data's median has an average deviation of 80%, the predictions of my approach only deviate on average 26%.",
+            "outcome": "I could show that my proposed approach strongly overachieved its outset goal through the reduction of the error by 67%, and the improvement of the prediction accuracy by 52% in comparison to the median.",
             "images": {
                 "img_1": {
                     "name": "Fraud detection",
