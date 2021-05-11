@@ -93,12 +93,12 @@ let resumeData = {
                 "img_2": {
                     "name": "Machine Learning Steps",
                     "curved": true,
-                    "url": "images/portfolio/ml_steps.jpg",
+                    "url": "images/portfolio/damage_prediction_code.jpg",
                 },
                 "img_3": {
                     "name": "Machine Learning Code",
                     "curved": false,
-                    "url": "images/portfolio/damage_prediction_code.png",
+                    "url": "images/portfolio/prediction_damage_amount.png",
                 }
             }
         },
