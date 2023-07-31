@@ -7,26 +7,25 @@ let resumeData = {
     "githubId": "https://github.com/TobiKick",
     "roleDescription": "I create value-adding solutions through innovative technologies",
     "socialLinks":[
-        {
-          "name":"LinkedIn",
-          "id": "tobias-kick",
-          "url":"https://www.linkedin.com/in/tobias-kick/",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"GitHub",
-          "id":"TobiKick",
-          "url":"https://github.com/TobiKick",
-          "className":"fa fa-github"
-        },
-        {
-          "name":"Skype",
-          "id": "kicktobi",
-          "url":"https://join.skype.com/invite/oVehSsSyNbib",
-          "className":"fa fa-skype"
-        }
-      ],
-
+      {
+        "name":"E-Mail",
+        "id": "tkick93@gmail.com",
+        "url":"mailto:tkick93@gmail.com",
+        "className":"fa fa-envelope"
+      },
+      {
+        "name":"LinkedIn",
+        "id": "tobias-kick",
+        "url":"https://www.linkedin.com/in/tobias-kick/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"GitHub",
+        "id":"TobiKick",
+        "url":"https://github.com/TobiKick",
+        "className":"fa fa-github"
+      }
+    ],
     "aboutme_1":"My name is Tobias and I'm driven by the desire to create simple, elegant solutions using innovative technology to tackle seemingly complex problems. There is one central idea behind every project that I do for my clients: providing undeniable, tangible, business value.",
     "aboutme_2":"1. I ensure that the client and I are on the same page regarding the goals and deliverables (through interviews, mockups, wireframes, etc.). \n 2. Then I create a Minimum Viable Product (MVP) (i.e. a first version of the product) that the client and I agree on, or that I use to adjust the set course. \n 3. I will then hone and sharpen the solution to cut to the core of the requirements, \n 4. At the same time, I ensure that the end user finds palpable, positive value out of the solution (through user interviews, surveys, questionnaires, etc.).",
     "aboutme_3":"\u2022 Bachelor of Science in Computing Systems from the Eastern Institute of Technology (New Zealand) \n \u2022 Bachelor of Science in Business Informatics from the Technical University of Regensburg (Germany) \n \u2022 Master of Science in IT-Management and -Consulting from the University of Hamburg (Germany) expected in 2021",
