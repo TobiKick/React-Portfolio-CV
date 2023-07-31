@@ -24,7 +24,7 @@ export default class Header extends Component {
             <div className="banner-text">
               <Grid container>
                 <Grid item xs={3}>
-                  <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+                  <img className="profile-pic"  src="images/profilepic-min.jpg" alt="" />
                 </Grid>
                 <Grid item xs={9}>
                   <h1 className="responsive-headline">{resumeData.name}</h1>
