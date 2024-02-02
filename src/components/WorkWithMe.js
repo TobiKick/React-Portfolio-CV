@@ -9,7 +9,7 @@ const ContactUs = (props) => {
         <h2>Work With Me</h2>
         <div className="row">
             <p className="lead">
-                  Feel free to contact me for any work or suggestions below
+                  Feel free to contact me for my up-to-date CV or any suggestions
             </p>
         </div>
 

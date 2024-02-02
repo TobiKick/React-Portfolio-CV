@@ -6,21 +6,20 @@ export default class Header extends Component {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      
-      <header id="home">
+        <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+               <li><a className="smoothscroll" href="#contact">Work With Me</a></li>
                <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
                <li><a className="smoothscroll" href="#awards">Awards</a></li>
-               <li><a className="smoothscroll" href="#about">About Me</a></li>
-               <li><a className="smoothscroll" href="#contact">Work With Me</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
+            <div style={{marginTop: '10%'}}></div>
             <div className="banner-text">
               <Grid container>
                 <Grid item xs={3}>
@@ -39,8 +38,7 @@ export default class Header extends Component {
                                     <a href={item.url} target="_blank" rel="noopener noreferrer"><i className={item.className} style={{color: '#0066ff'}}></i></a>
                                   </li>
                                 )
-                              }
-                        )
+                        })
                       }
                   </ul>
                 </Grid>
@@ -50,11 +48,11 @@ export default class Header extends Component {
             {/* <div className="banner-image"></div> */}
          </div>
 
-         <div className="scrolldown">
+         {/* <div className="scrolldown">
             <a className="smoothscroll" href="#portfolio"><i className="icon-down-circle"></i></a>
-        </div>
+        </div> */}
 
-      </header>
+        </header>
       </React.Fragment>
     );
   }

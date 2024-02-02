@@ -7,14 +7,14 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="about">
-         <div className="row">
+{/*          <div className="row">
             <h2>About Me</h2>
             <img className="profile-pic"  src="images/profilepic-min.jpg" alt="" />
-         </div>
+         </div> */}
          <div className="row">
             <p>{nl2br(resumeData.aboutme_1)}</p>
 
-            <h3>My approach is straightforward:</h3>
+            <h3>I have worked as a freelance Software Engineer in the following roles:</h3>
             <p>{nl2br(resumeData.aboutme_2)}</p>
 
             <h3>I graduated with a:</h3>

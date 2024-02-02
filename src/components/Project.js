@@ -9,8 +9,6 @@ function Project (props) {
     return (
         <section id="project">
             <div className="row work">
-                <br />
-
                 <div id="header" className="twelve columns">
                     <div className="one column"></div>
                     <div className="ten columns">

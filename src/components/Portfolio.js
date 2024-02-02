@@ -36,9 +36,10 @@ function Portfolio(props) {
     return (
       <>
         <section id="portfolio">
-          <div className="row">
+          
+         {/*  <div className="row">
             <div className="twelve columns collapsed">
-              <h2>Have a look at some of my projects:</h2>
+              <h2>Have a look at some of my student projects:</h2>
 
               <Grid container spacing={5}>
               {
@@ -75,7 +76,7 @@ function Portfolio(props) {
           </div>
           
           <div style={{'marginTop': '150px'}}></div>
-
+ */}
           <div className="row">
             <div className="twelve columns collapsed">
               <h2>Have a look at some of my student projects:</h2>
