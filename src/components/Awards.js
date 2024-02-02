@@ -32,6 +32,7 @@ export default class Awards extends Component {
           </div>
         </div>
       </div>
+      <div style={{marginBottom: '10%'}}></div>
   </section>
 
   );
