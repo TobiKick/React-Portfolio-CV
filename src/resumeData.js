@@ -1,11 +1,11 @@
 let resumeData = {
     "imagebaseurl":"https://github.com/TobiKick",
     "name": "Tobias Kick",
-    "role": "Digital Nomad | Software Engineer ",
+    "role": "Freelance Software Engineer | Full-Stack Development ",
     "linkedinId":"https://www.linkedin.com/in/tobias-kick/",
     "skypeId": "https://join.skype.com/invite/oVehSsSyNbib",
     "githubId": "https://github.com/TobiKick",
-    "roleDescription": "passionate about creating solutions for your challenges",
+    "roleDescription": "Bridging Client Needs and Tech Solutions",
     "socialLinks":[
       {
         "name":"E-Mail",
